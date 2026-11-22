@@ -1,12 +1,12 @@
 # mir2-web-game
 
-一个把《热血传奇》（Legend of Mir 2）味道做进浏览器的单文件网页 ARPG：纯 HTML5 Canvas + 原生 JS，无框架、无后端、无外部依赖，下载一个 `index.html` 双击就能玩。
+一个把 Mir2 风格等距视角 ARPG 做进浏览器的单文件网页游戏：纯 HTML5 Canvas + 原生 JS，无框架、无后端、无外部依赖，下载一个 `index.html` 双击就能玩。
 
 > 仅用于学习、研究与技术演示。游戏美术素材版权归原权利方所有，详见文末「版权与素材」。
 
 ## 直接开玩
 
-- 在线：仓库启用 GitHub Pages 后访问 Pages 地址，或直接打开仓库里的 `index.html`
+- 在线：访问 GitHub Pages 地址，或直接打开仓库里的 `index.html`
 - 本地：下载 `index.html`，用 Chrome / Edge 打开即可（存档写在浏览器 localStorage）
 
 ## 已实现
@@ -43,10 +43,10 @@
 ## 版权与素材
 
 - **代码**：MIT License，见 `LICENSE`。
-- **美术素材**：角色、地图、界面等图像素材版权归《热血传奇》/ Legend of Mir 2 原权利方所有，本项目不主张其权利，仅作学习与技术演示之用，禁止商用。若权利人认为使用不当，提交 Issue 即可，会立即移除相关内容。
+- **美术素材**：角色、地图、界面等图像素材版权归 Mir2 系列原权利方所有，本项目不主张其权利，仅作学习与技术演示之用，禁止商用。若权利人认为使用不当，提交 Issue 即可，会立即移除相关内容。
 
 ---
 
 ### English
 
-A single-file, dependency-free Legend of Mir 2 style browser ARPG built with HTML5 Canvas and vanilla JS: three classes, skills, equipment drops, dungeons with bosses, NPCs and shops, a minimap / world map with NPC auto-pathing, a mount for faster travel, and localStorage auto-save. Code is MIT licensed; all game art remains the property of its original rights holders and is used for study and demo purposes only.
+A single-file, dependency-free Mir2-style browser ARPG built with HTML5 Canvas and vanilla JS: three classes, skills, equipment drops, dungeons with bosses, NPCs and shops, a minimap / world map with NPC auto-pathing, a mount for faster travel, and localStorage auto-save. Code is MIT licensed; all game art remains the property of its original rights holders and is used for study and demo purposes only.

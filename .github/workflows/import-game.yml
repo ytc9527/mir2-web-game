@@ -20,13 +20,12 @@ jobs:
           ref: main
       - name: Download single-file game
         run: |
-          curl -L --fail --retry 3 --retry-delay 2 -o index.html 'https://aka.doubaocdn.com/s/O4Hk6BY0nq'
+          curl -L --fail --retry 3 --retry-delay 2 -o index.html 'https://aka.doubaocdn.com/s/ItxMTsUuXH'
           ls -lh index.html
-          head -c 200 index.html
       - name: Commit index.html
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add index.html
-          git commit -m 'build: add single-file game' || echo 'nothing to commit'
+          git commit -m 'build: refresh single-file game' || echo 'nothing to commit'
           git push origin HEAD:main
